@@ -1,0 +1,83 @@
+.big{
+            font-size: 20px;
+        }
+        #page1,#page2,#page3{
+            background: url(image3.jpg) center center fixed;
+            background-size: cover ;
+            text-align: center;
+            color:white;
+            font-family: lobster,serif;
+            letter-spacing: 1px;
+        }
+        h1{
+            font-size:37px;
+            letter-spacing: 4px
+        }
+        #text{
+            width:90%;
+            font-size:20px;
+            text-align: center;
+            border-radius: 10px;
+            margin:0 auto;
+            overflow:auto;
+        }
+        #start,#resume,#pause,#new{
+            width:80%;
+            margin:10px auto;
+            font-size: 20px;
+            padding:8px;
+        }
+        #resume,#pause,#new{
+            display: none;
+        }
+        #error{
+            background: #D87678;
+            width:70%;
+            margin: 15px auto;
+            padding:6px;
+            font-size: 20px;
+            display: none;
+        }
+        #words{
+            padding:20px;
+            font-size: 50px;
+            background: #20b3f3;
+            width:80%;
+            margin:0 auto;
+            margin-top: 10px;
+            display: none;
+            border-radius: 15px;
+        }
+/*
+        #details{
+            padding:20px;
+            font-size: 50px;
+            width:80%;
+            margin:10px auto;
+            margin-top: 10px;
+            display: none;
+        }
+*/
+#sliders form{
+    width:80%;
+    margin:0px auto;
+    display: none;
+}
+        /* Hide the number input */
+.full-width-slider input {
+    display: none !important;
+    width:60%;
+}
+#sliders label{
+    margin-bottom: -25px;
+    width:100%;
+}
+
+#progressbar{
+    margin-bottom: 20px;
+}
+
+textarea{
+    height:40px;
+    max-height: 300px;
+}
